@@ -1,4 +1,5 @@
-/* %d sayisindan %d sayisina gerekli matematiksel islemleri yaparak ulasmaya calisiniz.\nToplama (+) ve Cikarma (-) islemi icin %d hakkiniz vardir! */
+/* %d sayisindan %d sayisina gerekli matematiksel islemleri yaparak ulasmaya calisiniz.
+Toplama (+) ve Cikarma (-) islemi icin %d hakkiniz vardir! */
 
 #include <stdio.h>
 #include <stdlib.h>
