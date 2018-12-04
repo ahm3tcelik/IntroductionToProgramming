@@ -1,29 +1,29 @@
 #include <stdio.h>
 
 /*	
-  .	. * . .  // 2 boþluk 1 yildiz 2 boþluk
-	  * . .  // 2 boþluk 1 yildiz 2 boþluk
+  . . * . .  // 2 boÃ¾luk 1 yildiz 2 boÃ¾luk
+  . . * . .  // 2 boÃ¾luk 1 yildiz 2 boÃ¾luk
   * * * * *  // 5 yildiz
-  . . * . .  // 2 boþluk 1 yildiz 2 boþluk
-  . . *	. .	 // 2 boþluk 1 yildiz 2 boþluk				
+  . . * . .  // 2 boÃ¾luk 1 yildiz 2 boÃ¾luk
+  . . *	. .	 // 2 boÃ¾luk 1 yildiz 2 boÃ¾luk				
 */
 int artibas(int size)
 {
 	int yildiz,bosluk;
 	for(int i=1;i<=size;i++)
 	{
-		if(i == size/2+1) // Ortadaki satýr sadece yýldýzdan oluþuyor. Ortadaki satýrý bulmak için (5/2+1 = 3)
+		if(i == size/2+1) // Ortadaki satÃ½r sadece yildizdan oluÃ¾uyor. Ortadaki satÃ½rÃ½ bulmak iÃ§in (5/2+1 = 3)
 		{
 			yildiz = size;  
 		}
 		else
 			yildiz = 1;
 		/*
-		Yukardaki þekle bakarak :
-		boþluklar ve yýldýzlarýn toplamý size'yi veriyor.
-		toplam boþluk sayýsý = x, toplam yildiz sayýsý = y olsun.
+		Yukardaki Ã¾ekle bakarak :
+		boÃ¾luklar ve yÃ½ldÃ½zlarÃ½n toplamÃ½ size'yi veriyor.
+		toplam boÃ¾luk sayÃ½sÃ½ = x, toplam yildiz sayÃ½sÃ½ = y olsun.
 		2x + y = size
-		(size - y)/2 = x olur. // Bu da boþluk sayýsýný verir.
+		(size - y)/2 = x olur. // Bu da boÃ¾luk sayÃ½sÃ½nÃ½ verir.
 		*/
 		bosluk = (size-yildiz)/2;
 
