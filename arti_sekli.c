@@ -15,7 +15,7 @@ int artibas(int size)
 	int yildiz,bosluk;
 	for(int i=1;i<=size;i++)
 	{
-		if(i == size/2+1) // Ortadaki satýr sadece yildizdan oluþuyor. Ortadaki satýrý bulmak için (5/2+1 = 3)
+		if(i == size/2+1) // Ortadaki satır sadece yildizdan oluşuyor. Ortadaki satırı bulmak için (5/2+1 = 3)
 		{
 			yildiz = size;  
 		}
