@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-/*	
-  . . * . .  // 2 boþluk 1 yildiz 2 boþluk
-  . . * . .  // 2 boþluk 1 yildiz 2 boþluk
-  * * * * *  // 5 yildiz
-  . . * . .  // 2 boþluk 1 yildiz 2 boþluk
-  . . *	. .	 // 2 boþluk 1 yildiz 2 boþluk				
+/*
+
+. . * . .  // 2 boşluk 1 yıldız 2 boşluk            *
+. . * . .  // 2 boşluk 1 yıldız 2 boşluk	    *									
+* * * * *  // 0 yıldız 5 boşluk 0 boşluk 	* * * * *									
+. . * . .  // 2 boşluk 1 yıldız 2 boşluk	    *									
+. . * .  . // 2 boşluk 1 yıldız 2 boşluk	    *								
+
+
 */
 int artibas(int size)
 {
@@ -19,11 +22,11 @@ int artibas(int size)
 		else
 			yildiz = 1;
 		/*
-		Yukardaki þekle bakarak :
-		boþluklar ve yýldýzlarýn toplamý size'yi veriyor.
-		toplam boþluk sayýsý = x, toplam yildiz sayýsý = y olsun.
+		Yukarıdaki şekle bakarak :
+		boşluk ve yıldızların toplamı size'yi veriyor.
+		toplam boşluk sayısı = x, toplam yıldız sayısı = y olsun.
 		2x + y = size
-		(size - y)/2 = x olur. // Bu da boþluk sayýsýný verir.
+		(size - y)/2 = x olur. // Bu da bu da boşluk sayısını verir.
 		*/
 		bosluk = (size-yildiz)/2;
 
@@ -37,7 +40,6 @@ int artibas(int size)
 int main()
 {
 	int size2;
-	printf("+'nin buyuklugunu giriniz.\n");
-	scanf("%d",&size2);
+	printf("+'nin buyuklugunu giriniz.\n",scanf("%d",&size2));
 	artibas(size2);
 }
