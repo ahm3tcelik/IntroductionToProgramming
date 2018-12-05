@@ -2,7 +2,7 @@
 
 /*
 
-. . * . .  // 2 boşluk 1 yıldız 2 boşluk            *
+. . * . .  // 2 boşluk 1 yıldız 2 boşluk           *
 . . * . .  // 2 boşluk 1 yıldız 2 boşluk	    *									
 * * * * *  // 0 yıldız 5 boşluk 0 boşluk 	* * * * *									
 . . * . .  // 2 boşluk 1 yıldız 2 boşluk	    *									
