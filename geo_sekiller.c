@@ -8,12 +8,6 @@ int sec()
 }
 void ucgen(int size)
 {
-	/*     UCGEN
-
-		* 		1.satir 1y
-		* *		2.satir 2y
-		* * * 	3.satir 3y */
-
 	printf("\n");
 
 	for(int i=1;i<=size;i++)
@@ -25,11 +19,7 @@ void ucgen(int size)
 }
 void ters_ucgen(int size)
 {
-	/* Ters Üçgen 
-
-		*  1.satir 2b 1y
-	  * *  2.satir 1b 2y
-	* * *  3.satir 0b 3y  */
+	printf("\n");
 	int yildiz,bosluk;
 	bosluk = size-1;
 	yildiz = 1;
@@ -48,12 +38,7 @@ void ters_ucgen(int size)
 }
 void eskenar_ucgen(int size)
 {
-	/*   ESKENAR UCGEN 
-
-		*    1.satır 2b 1y 
-	   * *   2.satır 1b 2y
-	  * * *  3.satır 0b 3y
-*/
+	printf("\n");
 	int yildiz,bosluk;
 	bosluk = size-1;
 	yildiz = 1;
@@ -71,14 +56,7 @@ void eskenar_ucgen(int size)
 }
 void eskenar_dortgen(int size)
 {
-	/* ESKENAR DORTGEN
-		
-		*   2b 1y
-	   * * 	1b 2y
-	  * * * 0b 3y
-	   * *  1b 2y
-	    *   2b 3y
-*/
+	printf("\n");
 	int yildiz,bosluk;
 	bosluk = size-1;
 	yildiz = 1; 
@@ -105,15 +83,7 @@ void eskenar_dortgen(int size)
 }
 void piramit(int size)
 {
-		/*	 PIRAMIT 
-
-		  	 	*      	1.satır 3b 1y
-			  * * *	   	2.satır 2b 3y
-			* * * * *  	3.satır 1b 5y
-		  * * * * * * * 4.satır 0b 6y 	*/
-
 	printf("\n");
-
 	int yildiz,bosluk;
 	bosluk = size-1;
 	yildiz = 1;
@@ -133,14 +103,7 @@ void piramit(int size)
 }
 void arti(int size)
 {
-/*	 ARTI ISARETI
-		
-		*	   2b 1y 2b  (size) 5 = 4b+y -> 2b = (5-y)/2	    
-		*	   2b 1y 2b
-    * * * * *  0b 5y 0b
-		*	   2b 1y 2b
-		*	   2b 1y 2b
-*/
+    printf("\n");
 	int yildiz,bosluk;
 
 	yildiz = 1;
